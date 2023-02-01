@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.class1{
+    background-color: #F1D3B3;
+    color: rgba(32, 32, 31, 0.842);
+}
+.class2{
+    background-color: #F2E5E5 ;
+    color: rgb(150, 4, 28);
+}
+button{
+    background-color: #DC5F00 !important ;
+}

@@ -1,0 +1,17 @@
+<div>{{ok}}</div>
+<table class="table">
+    <th>Name</th>
+    <th>Age</th>
+    <th>City</th>
+    <th>Select</th>
+    <tr [ngClass]="e? 'class1':'class2'" *ngFor="let v of vend; let e = even">
+        <td>{{v.name}}</td>
+        <td>{{v.age}}</td>
+        <td>{{v.city}}</td>
+        <td>
+            <button class="btn btn-success" (click)="onClick(v)">
+                select
+            </button>
+        </td>
+    </tr>
+</table>
